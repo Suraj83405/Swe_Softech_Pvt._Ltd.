@@ -1,0 +1,21 @@
+.container .row .col-md-6{
+    margin-top: 5px;
+    background-color: bisque;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+.bmark{
+    padding: 20px;
+    margin: 40px;
+}
+mark h3{
+    text-shadow: 4px;
+    background: rgb(208, 247, 131);
+}
+.ee{
+    padding-left: 18px;
+    padding-right: 10px;
+    border-radius: 10px;
+    background-color: rgb(158, 255, 201);
+}

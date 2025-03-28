@@ -1,0 +1,250 @@
+/*@import url('https://fonts.googleapis.com/css?family=Philosopher:700&display=swap');*/
+body {
+	font-family: 'Philosopher', sans-serif;
+	position: relative;
+	font-weight: 400;
+	font-size: 16px;
+	color: #8a919c;
+	line-height: 30px;
+}
+
+.pt-100 {
+	padding-top: 100px;
+}
+
+.pb-100 {
+	padding-bottom: 100px;
+}
+
+.ptb-100 {
+	padding: 100px 0px;
+}
+
+.pt-70 {
+	padding-top: 70px;
+}
+
+.pb-70 {
+	padding-bottom: 70px;
+}
+
+.ptb-70 {
+	padding: 70px 0px;
+}
+
+p {
+	font-size: 15px;
+	margin: 0px;
+	padding: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	padding: 0;
+	
+}
+
+#servicess .title {
+	font-size: 46px;
+	color: #000000;
+	font-weight: 600;
+}
+
+#servicess .title span {
+	font-size: 46px;
+	color: #FF5722;
+	font-weight: 600;
+}
+
+#servicess .btn-primary {
+	color: #fff;
+	background-color: #FF5722;
+	border: none;
+	font-size: 14px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	padding: 12px 20px;
+	min-width: 150px;
+	transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+}
+
+.btn-primary:hover {
+	-webkit-box-shadow: 0 5px 9px -4px rgb(0 0 255 / 65%);
+	box-shadow: 0 5px 9px -4px rgb(0 0 255 / 65%);
+}
+
+.card-items .card {
+	position: relative;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	min-width: 0;
+	word-wrap: break-word;
+	background-color: #fff;
+	background-clip: border-box;
+	border: none;
+	border-radius: .25rem;
+	box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
+	margin-bottom: 30px;
+}
+
+.card-items .card .card-body i {
+	border-radius: 6px;
+	font-size: 31px;
+	color: #ff5722;
+	background-color: #ff57221c;
+	width: 50px;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.card-items .card .card-body .card-title {
+	margin-bottom: .75rem;
+	margin-top: 26px;
+	margin-bottom: 15px;
+}
+#more {display: none;}
+
+
+.sectionClass {
+	padding: 20px 0px 50px 0px;
+	position: relative;
+	display: block;
+  }
+  
+  .fullWidth {
+	width: 100% !important;
+	display: table;
+	float: none;
+	padding: 0;
+	min-height: 1px;
+	height: 100%;
+	position: relative;
+  }
+  
+  
+  .sectiontitle {
+	background-position: center;
+	margin: 30px 0 0px;
+	text-align: center;
+	min-height: 20px;
+  }
+  
+  .sectiontitle h2 {
+	font-size: 30px;
+	color: #222;
+	margin-bottom: 0px;
+	padding-right: 10px;
+	padding-left: 10px;
+  }
+  
+  
+  .headerLine {
+	width: 160px;
+	height: 2px;
+	display: inline-block;
+	background: #101F2E;
+  }
+  
+  
+  .projectFactsWrap{
+	  display: flex;
+	margin-top: 30px;
+	flex-direction: row;
+	flex-wrap: wrap;
+  }
+  
+  
+  #projectFacts .fullWidth{
+	padding: 0;
+  }
+  
+  .projectFactsWrap .item{
+	width: 25%;
+	height: 100%;
+	padding: 50px 0px;
+	text-align: center;
+  }
+  
+  .projectFactsWrap .item:nth-child(1){
+	background: rgb(16, 31, 46);
+  }
+  
+  .projectFactsWrap .item:nth-child(2){
+	background: rgb(18, 34, 51);
+  }
+  
+  .projectFactsWrap .item:nth-child(3){
+	background: rgb(21, 38, 56);
+  }
+  
+  .projectFactsWrap .item:nth-child(4){
+	background: rgb(23, 44, 66);
+  }
+  
+  .projectFactsWrap .item p.number{
+	font-size: 40px;
+	padding: 0;
+	font-weight: bold;
+  }
+  
+  .projectFactsWrap .item p{
+	color: rgba(255, 255, 255, 0.8);
+	font-size: 18px;
+	margin: 0;
+	padding: 10px;
+	font-family: 'Open Sans';
+  }
+  
+  
+  .projectFactsWrap .item span{
+	width: 60px;
+	background: rgba(255, 255, 255, 0.8);
+	height: 2px;
+	display: block;
+	margin: 0 auto;
+  }
+  
+  
+  .projectFactsWrap .item i{
+	vertical-align: middle;
+	font-size: 50px;
+	color: rgba(255, 255, 255, 0.8);
+  }
+  
+  
+  .projectFactsWrap .item:hover i, .projectFactsWrap .item:hover p{
+	color: white;
+  }
+  
+  .projectFactsWrap .item:hover span{
+	background: white;
+  }
+  .whatsapp-button {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	background-color: #25d366;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 50px;
+	text-align: center;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.whatsapp-button:hover {
+	background-color: #128C7E;
+}  
